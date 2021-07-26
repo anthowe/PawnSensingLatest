@@ -45,8 +45,8 @@ ATP_FlyingPawn::ATP_FlyingPawn()
 	// Set handling parameters
 	Acceleration = 1000.f;
 	TurnSpeed = 50.f;
-	MaxSpeed = 4000.f;
-	MinSpeed = 500.f;
+	MaxSpeed = 500.f;
+	MinSpeed = 0.f;
 	CurrentForwardSpeed = 0.f;
 }
 
